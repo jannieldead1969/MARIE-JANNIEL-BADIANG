@@ -1,0 +1,120 @@
+head {
+    color: white;
+}
+@font-face{
+    font-family: myFont;
+    src:url(TheNextFont.ttf);
+}
+
+@font-face{
+    font-family: league;
+    src:url(LeagueSpartan-Bold.otf);
+}
+body{
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style-position: inside;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 0px;
+    font-family: league;
+    margin-left: 10px;
+    margin-right: 3%;
+    padding-right: 30px;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+
+p{
+    line-height: 1;
+    font-family: league;
+    font-size: 14px;
+}
+.glow-button {
+    padding: 18px 40px;
+    font-size: 15px;
+}
+
+
+h1{
+   
+    font-size: 100px;
+    font-family: league;
+    color: white;
+    opacity: 75%;
+    margin-top: 100px;
+    margin-left:300px;
+    margin-right: 5%;
+    line-height: 1;
+    text-align: right;
+}
+
+
+h3{
+    font-family: league;
+    font-size: 40px;
+    margin-bottom:80px;
+
+}
+h4{
+    font-family: league;
+    font-size: 20px;
+    margin-top: 140px;
+}
+h5{
+    font-family: league;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 160px;
+}
+h6{
+    font-size: 16px;
+    font-family: league;
+    color: white;
+    line-height: 1.4;
+    margin-left: 50;
+    margin-right: 50;
+}
+
+
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  /*box-shadow: 0 20px 20px  rgba(0,0,0,.7);*/
+}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+@media (max-width:500px){
+    h6{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size:29px;
+    }
+}
